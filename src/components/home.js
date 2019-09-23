@@ -45,7 +45,7 @@ class Home extends Component {
 					);
 				})}
 				<button onClick={this.addNew}>Add +</button>
-				<p>{`Number of solar power needed is = ${this.state.solarPanels}`}</p>
+				<p>{this.state.solarPanels ? `Number of solar power needed is = ${this.state.solarPanels}` : ""}</p>
 			</div>
 		);
 	}
