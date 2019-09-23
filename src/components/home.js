@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './home.css'
 
 
 class Home extends Component {
@@ -31,7 +32,7 @@ class Home extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className="Home">
 				<h1>Check how much solar power you need</h1>
 				{this.state.values.map((val, index) => {
 					let ampsID = `amps-${index}` , hoursID = `hours-${index}`
