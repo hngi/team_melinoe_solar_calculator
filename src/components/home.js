@@ -33,6 +33,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div className="Home">
+				<div>
 				<h1>Check how much solar power you need</h1>
 				{this.state.values.map((val, index) => {
 					let ampsID = `amps-${index}` , hoursID = `hours-${index}`
@@ -47,6 +48,7 @@ class Home extends Component {
 				})}
 				<button onClick={this.addNew}>Add +</button>
 				<p>{this.state.solarPanels ? `Number of solar power needed is = ${this.state.solarPanels}` : ""}</p>
+				</div>
 			</div>
 		);
 	}
