@@ -1,0 +1,13 @@
+/* solar */
+body {
+position: absolute;
+width: 1195px;
+height: 892px;
+left: 9px;
+top: 45px;
+
+background: url(solar.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 15px;
+}
