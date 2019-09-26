@@ -1,11 +1,17 @@
 import React from 'react';
-import Home from './components/home';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import Home from './components/Home';
+import Calculator from './components/Calculator'
 
 function App() {
   return (
-    <div className="App">
-      <Home></Home>
+		<Router>
+			<div className="App">
+			<Route path="/" exact component={Home} />
+			<Route path="/calculator" exact component={Calculator} />
     </div>
+		</Router>
+    
   );
 }
 
