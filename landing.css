@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("b-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main_content {
+    text-align: center;
+    margin-top: 15%;
+    color: #597690;
+}
+
+.main_content h1 {
+    font-weight: 900;
+}
+
+.main_content a {
+    background-color: #36932E;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    margin-top: 0%;
+}
+
+.main_content a:hover {
+    text-decoration: none;
+    background-color: #597690;
+}

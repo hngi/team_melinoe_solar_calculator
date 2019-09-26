@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cb6426b160.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Melineo Solar Calculator</title>
+  </head>
+  <body>
+        <div class="calculator">
+            <header id="header"><h1>Melineo Solar Calculator</h1></header>
+
+            <main class="main_calculator">
+                <h2>Calculate Here</h2>
+                <p>Kindly fill the fields below</p>
+                <div>
+                    <input type="text" class="input_field" placeholder="Watts (V x A)" onkeyup="calculate_total()"> <br>
+                    <input type="text" class="input_field" placeholder="Hours on (per day)" onkeyup="calculate_total()"> <br>
+                </div>
+            </main>
+            <a href="#" class="add_input">Add appliance <i class="fas fa-plus-circle"></i></a>
+            <span id="total"></span>
+        </div>
+
+        <script src="calc.js"></script>
+  </body>
+</html>
