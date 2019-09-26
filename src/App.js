@@ -1,10 +1,12 @@
 import React from 'react';
-import Home from './components/home';
+import Home from './components/Home';
+import Calculator from './components/Calculator'
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+			{/* <Home></Home> */}
+			<Calculator></Calculator>
     </div>
   );
 }

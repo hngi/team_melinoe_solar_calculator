@@ -1,56 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
-.Home{
-	background-color: #0e0f1a;
-	padding: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: 'Roboto', sans-serif;
-	
+.Home {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../assets/solar.png');
 }
-.Home div{
-	background-color: #292a34;
-	padding:40px;
-	min-height: 60vh;
-	border-radius: 6px;
-	display: flex;
-	flex-direction: column;
+.main-wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 460px;
+  text-align: center;
+  margin: auto;
 }
-h1{
-	margin:0;
-	color:#ffffff;
-	background-color: #0e0f1a;
-	padding:10px 20px;
-	font-family: 'Open Sans', sans-serif;
+.main-wrap h1 {
+  font-size: 54px;
+  color: #304b6c;
+  margin: 0px;
 }
- form{
-	 display: flex;
-	 flex-direction: column;
-	 /* background-color:white; */
-	 padding:20px;
- }
- label{
-	color:#42f4e1;
- }
- 
- input{
-	 margin:2px 0;
-	 padding:10px;
-	 border-radius: 6px;
-	 border:1px solid #000000;
-	 font-family: 'Open Sans', sans-serif;
-	 font-size:12px;
- }
- button{
-	 background: transparent;
-	 border:none;
-	 color:#42f4e1;
-	 font-size:20px;
-	 outline:none;
- }
- p{
-	font-size:20px;
-	color:#ffffff;
- }
+.calc-text {
+  font-size: 16px;
+  color: #304b6c;
+  margin: 10px 0px;
+  font-weight: 400;
+}
+.get-started {
+  text-decoration: none;
+  padding: 10px 18px;
+  background: #36932e;
+  color: white;
+  border-radius: 20px;
+  transition: all 0.4s;
+  border: 1px solid #36932e;
+  margin: 60px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0px 6px 20px rgba(43, 111, 37, 0.1);
+}
+.get-started:hover {
+  text-decoration: none;
+  background: white;
+  color: #36932e;
+  border: 1px solid #36932e;
+}
