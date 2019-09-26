@@ -49,3 +49,33 @@
   color: #36932e;
   border: 1px solid #36932e;
 }
+@media only screen and (min-width:768px) and (max-width:999px){
+	.Home {
+		background-size: cover;
+		min-height: 100vh;
+		background-image: url('../assets/solar.png');
+	}
+}
+
+@media only screen and (max-width:767px){
+	.Home {
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 100vh;
+		background-image: url('../assets/solar.png');
+		background-position-x: 60%;
+		background-position-y:119px;
+		background-color: #b5d7e1;
+	}
+	.main-wrap h1 {
+		font-size: 30px;
+		color: #304b6c;
+		margin: 0px;
+	}
+	.calc-text {
+		font-size: 16px;
+		color: #304b6c;
+		margin: 10px 0px;
+		font-weight: Bold;
+	}
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Home.css'
 
 class Home extends React.Component {
@@ -13,9 +14,9 @@ class Home extends React.Component {
 						and hours per day for each appliances
 					</h4>
 
-					<a href="./Calculator.js" class="get-started">
+					<Link to="/Calculator" class="get-started">
 						Get Started
-					</a>
+					</Link>
 				</div>
 			</div>
 		);

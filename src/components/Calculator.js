@@ -33,19 +33,20 @@ class Home extends Component {
 	};
 	render() {
 		return (
-			<div className="">
+			<div className="Calculator">
 				<header class="header">
-					<div class="header__text-box">
-						<h1 class="heading-primary">
-							<span class="heading-primary--main">Melineo Solar Calculator</span>
-						</h1>
-					</div>
+					<h1>Melinoe Solar Calculator</h1>
 				</header>
 				<div class="wrapper">
 					<div class="forms">
 						<div class="forms_heading">
 							<h1 class="forms_heading--primary">Calculate here</h1>
 							<p class="forms_heading--secondary">Kindly fill in the below fields</p>
+							<p>
+							{this.state.solarPanels
+								? `Number of solar power needed is = ${this.state.solarPanels} WH`
+								: ""}
+						</p>
 						</div>
 						{this.state.values.map((val, index) => {
 							let ampsID = `amps-${index}`,
@@ -75,12 +76,8 @@ class Home extends Component {
 								</form>
 							);
 						})}
-						<button onClick={this.addNew}>Add +</button>
-						<p>
-							{this.state.solarPanels
-								? `Number of solar power needed is = ${this.state.solarPanels}`
-								: ""}
-						</p>
+						<button onClick={this.addNew}>Add Appliance <span className="pill-btn">+</span></button>
+						
 					</div>
 				</div>
 			</div>
