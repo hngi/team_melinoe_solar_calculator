@@ -72,6 +72,8 @@ class Home extends Component {
 										id={hoursID}
 										className="hours"
 										data-id={index}
+										max="24" 
+										defaultValue="1"
 									/>
 								</form>
 							);
