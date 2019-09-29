@@ -1,8 +1,7 @@
-   # MELINOE SOLAR CALCULATOR
+# MELINOE SOLAR CALCULATOR
 ![melinoe_sc](https://user-images.githubusercontent.com/48980821/65823475-d1669c00-e24e-11e9-8b4f-75efed38345a.PNG)
 
 ![melinoe_sc2](https://user-images.githubusercontent.com/48980821/65823472-cb70bb00-e24e-11e9-836d-bd2eda48f536.PNG)
-
 
 
 
