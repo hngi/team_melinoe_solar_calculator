@@ -1,0 +1,12 @@
+
+    .faq {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .answer {
+        display: none;
+    }
+    .question{
+        cursor: pointer;
+        color: #304173;
+    }

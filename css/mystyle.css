@@ -1,0 +1,50 @@
+body {
+    background-color: #fcf9f9;
+    position: absolute;
+    height: 666px;
+    width: 769px;
+}
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #304173;
+    text-align: center;
+    
+}  
+.top {
+    width: 1000px;
+    height: 47px;
+    background-color: #94C3Fb;
+    position: absolute;
+}
+h5 {
+  
+    font-family:Roboto;
+    font-size: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0 auto
+    color: #304173;
+    text-align: center;
+  
+}
+.tip {
+    width: 115px;
+    height: 16px;
+    
+}
+h2{
+    color:#304173;
+    font-family:Roboto;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.faq {
+    width: 65%;
+    margin: 0 auto;
+}
+.answer {
+    display: none;
+}
