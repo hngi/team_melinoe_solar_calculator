@@ -31,17 +31,23 @@ class Home extends Component {
 			// this.setState({values}, () =>console.log(this.state.values))
 		}
 	};
+
+	handleRemove = index =>{
+		this.setState({
+			values: this.state.values.splice(index,1)
+		});
+	}
 	render() {
 		return (
 			<div className="Calculator">
-				<header class="header">
+				<header className="header">
 					<h1>Melinoe Solar Calculator</h1>
 				</header>
-				<div class="wrapper">
-					<div class="forms">
-						<div class="forms_heading">
-							<h1 class="forms_heading--primary">Calculate here</h1>
-							<p class="forms_heading--secondary">Kindly fill in the below fields</p>
+				<div className="wrapper">
+					<div className="forms">
+						<div className="forms_heading">
+							<h1 className="forms_heading--primary">Calculate here</h1>
+							<p className="forms_heading--secondary">Kindly fill in the below fields</p>
 							<p>
 							{this.state.solarPanels
 								? `Number of solar power needed is = ${this.state.solarPanels} WH`
@@ -72,13 +78,13 @@ class Home extends Component {
 										id={hoursID}
 										className="hours"
 										data-id={index}
-										max="24" 
 									/>
+										<button onClick={() => this.handleRemove(index)} className="remove-btn">remove <span className="red-btn">-</span></button>
 								</form>
 							);
 						})}
 						<button onClick={this.addNew}>Add Appliance <span className="pill-btn">+</span></button>
-						
+					
 					</div>
 				</div>
 			</div>

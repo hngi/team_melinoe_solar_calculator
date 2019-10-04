@@ -6,10 +6,10 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div className="Home">
-				<div class="main-wrap">
+				<div className="main-wrap">
 					<h1>Melineo Solar Calculator</h1>
 
-					<h4 class="calc-text">
+					<h4 className="calc-text">
 						Calculate how much solar power your home requires by just providing the amps
 						and hours per day for each appliances
 					</h4>
