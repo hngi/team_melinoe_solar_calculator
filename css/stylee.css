@@ -5,6 +5,7 @@
     }
     .answer {
         display: none;
+        color: #304173;
     }
     .question{
         cursor: pointer;

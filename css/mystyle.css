@@ -1,10 +1,8 @@
 body {
     background-color: #fcf9f9;
-    position: absolute;
-    height: 666px;
-    width: 769px;
+   
 }
-h3 {
+.dd {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -18,33 +16,48 @@ h3 {
     background-color: #94C3Fb;
     position: absolute;
 }
-h5 {
-  
-    font-family:Roboto;
-    font-size: normal;
-    font-weight: normal;
-    font-size: 13px;
-    margin: 0 auto
-    color: #304173;
-    text-align: center;
-  
-}
-.tip {
-    width: 115px;
-    height: 16px;
-    
-}
-h2{
-    color:#304173;
-    font-family:Roboto;
-    font-size: normal;
-    font-weight: bold;
-    text-align: center;
-}
+
+
+
 .faq {
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
 }
 .answer {
     display: none;
 }
+.question{
+    cursor: pointer;
+    color: #304173;
+
+}
+.answer {
+    color: #304173;
+}
+h2 {
+    color: #304173;
+}
+
+  .calculator {
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    border: 1px solid #94C3Fb;
+    margin: 60px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0px 6px 20px rgba(43, 111, 37, 0.1);
+    background:  #fcf9f9;
+    
+  }
+  .calculator:hover {
+    text-decoration: none;
+    background: white;
+    color: #94C3Fb;
+    border: 1px solid #94C3Fb;
+    
+  }
+  .back {
+    margin-block-end: 20px; 
+  }
