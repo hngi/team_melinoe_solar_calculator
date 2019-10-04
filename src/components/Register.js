@@ -6,48 +6,48 @@ class Register extends React.Component {
       
         // For technician form
 
-        <div class="secondary-wrap" id="secondary-wrap">
-          <div class="paragraph">
-            <p class="p1">Are you a technician? </p>
-            <p class="p2">
+        <div className="secondary-wrap" id="secondary-wrap">
+          <div className="paragraph">
+            <p className="p1">Are you a technician? </p>
+            <p className="p2">
               We can help get to your potential customers by registering on our
               platform.
             </p>
           </div>
-          <div class="row">
-            <div class="col-1-of-2"></div>
-            <div class="col-2-of-2">
-              <form class="form-reg">
+          <div className="row">
+            <div className="col-1-of-2"></div>
+            <div className="col-2-of-2">
+              <form className="form-reg">
                 <input
                   type="name"
                   name="txtFullName"
                   placeholder="Full Name"
-                  class="fullname"
+                  className="fullname"
                   required
                 ></input>
                 <input
                   type="email"
                   name="txtEmail"
                   placeholder="Email"
-                  class="email"
+                  className="email"
                   required
                 ></input>
                 <input
                   type="text"
                   name="number"
                   placeholder="Phone Number"
-                  class="phone-number"
+                  className="phone-number"
                   required
                 ></input>
                 <input
                   type="text"
                   name="text"
                   placeholder="Address"
-                  class="address"
+                  className="address"
                   required
                 ></input>
 
-                <button class="button">Submit</button>
+                <button className="button">Submit</button>
               </form>
             </div>
           </div>
