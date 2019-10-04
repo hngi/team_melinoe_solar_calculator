@@ -89,3 +89,20 @@ p {
 	color: #F17E13;
 	font-weight: bold;
 }
+.remove-btn{
+	color:red;
+	font-size:15px;
+}
+.red-btn{
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+	background-color: red;
+	color:#ffffff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-weight:bold;
+	font-size:15px;
+	 
+}
