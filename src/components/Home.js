@@ -14,8 +14,11 @@ class Home extends React.Component {
 						and hours per day for each appliances
 					</h4>
 
-					<Link to="/Calculator" class="get-started">
+					<Link to="/calculator" class="get-started">
 						Get Started
+					</Link>
+					<Link to="/register" class="get-started">
+						Register as a technician
 					</Link>
 				</div>
 			</div>
