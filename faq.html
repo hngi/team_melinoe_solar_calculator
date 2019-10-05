@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/mystyle.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+    <br>
+    <br>
+    <div class="top" >
+          <h3 class="dd">Melinoe Solar Calculators</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="back" >
+    <a href="index.html" class="calculator">Back to Calculator</a>
+    </div>
+     </div>
+    <br>
+   
+    <div class="faq">
+    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+
+    <h3 class="question"><h3 class="question">How much energy will your appliance(s) use over a period of time?</h3>
+    <div class="answer">
+        The power consumption of appliances is generally given in Watts (e.g. A small portable TV is around 20W this information can be found on the data sticker that most electrical items have). To calculate the energy you will use over time, just multiply the power consumption by the hours of intended use.
+    <br>
+        The 20W TV in this example,
+        <br>
+        on for 2 hours, will take 20 x 2 = 40WH from the battery.
+        <br>
+        Repeat this for all the appliances you wish to use, then add the results to establish total consumption like below.
+        <br>
+        TV 20w on for 2 hours per day                              = 40w per day
+        <br>
+        Radio 10w on for 5 hours per day                          = 50w per day
+        <br>
+        Water pump (20w) on for 20mins per day               = 6.66w per day
+        <br>
+        Main Light 30w on for 3h per day                           = 90w per day
+        <br>
+        Spot lights 10w on for 1h per day                           = 10w per day
+        <br>
+                                                                                            Total      = 196w per day
+        <br>
+        An easy way to lower your power usage is to swap out halogen lights for LED lights. LED lights generally use 80% less energy for a similar light level.  We have a range of 12V LED lights here
+        <br>
+        
+<hr>
+</div>
+
+    <h3 class="question"> Putting it all together to size your system.</h3>
+    <div class="answer">
+        Knowing your power requirements and the time of year you want to use the system is vital to this step.  We will use the example above with a power requirement of  196w per day.
+
+        If this is the requirements for late spring to early Autumn use we could use this equation
+        <br>
+        Watts required / time of year sunshine hours = panel size   
+        <br>
+              →           196 / 6 = 32.6W panel
+        <br>
+        As we don’t make a 32.6w solar panel we would recommend looking at a 30w or 40w solar panel for this application.
+        <br>
+        However if this was an all year requirement i.e. also needed in the UK’s winter the numbers would change
+        <br>
+        Watts required / time of year sunshine hours = panel size         →          196 / 1 = 196W panel
+        <br>
+        As we don’t make a 196w solar panel we would recommend looking at two 100w solar panels for this application.
+
+<hr>
+
+
+    </div>
+    <h3 class="question">What are the financial benefits of solar energy?</h3>
+    <div class="answer">
+        When you install a solar energy system on your property, you save money on your electricity bills and protect yourself against rising electricity rates in the future. How much you can save depends on the utility rates and solar policies in your area, but going solar is a smart investment regardless of where you live.
+
+<hr>
+
+
+    </div>
+ 
+    <h3 class="question">How does it save me money?</h3>
+    <div class="answer">
+        Community solar saves you money by allowing you to invest in solar panels that produce electricity for your home or business, even when you can’t install them on your roof. When you participate in a community solar project, you are paying for access to less expensive solar electricity so that you don’t have to buy electricity at standard utility rates.
+
+<hr>
+    </div>
+
+    <h3 class="question"> How do I find out how much I pay for electricity?</h3>
+    <div class="answer">
+        The easiest way to find out how much you pay for electricity (and how much electricity you use per month) is to take a look at your utility electricity bill. Review EnergySage’s guide to reading your electricity bill to find out exactly what to look for.
+
+
+ <hr>
+   </div>
+    <h3 class="question">How much will solar panel maintenance cost?</h3>
+    <div class="answer">
+        Solar panel systems are made of durable tempered glass and require little to no maintenance for the 25 to 35 years that they will generate power. In most cases, you don’t even need to clean your solar panels regularly. If something does happen, most equipment manufacturers include warranties, although warranty terms depend on the company.
+        <hr>
+    </div>
+    
+    <h3 class="question">What are my solar financing options?</h3>
+        <div class="answer">
+           
+            There are three solar financing options: you can purchase your system in cash, take out a solar loan to buy your system, or sign a solar lease/power purchase agreement (PPA). EnergySage’s Instant Estimate Tool can help you assess the costs and 20-year savings of each solar financing option; its calculations are based on your roof plus real quote data from your area.
+            
+            <hr>
+            </div>
+            <h3 class="question">How do solar panels convert the Sun's energy into electricity?</h3>
+                <div class="answer">
+                    Photovoltaic systems, composeed of solar cells,are able to convert sunlight directly into electricity because PV cells are electricity-producing devices made of semiconductor materials.Simply put, a solar panel works by allowing photons,or particles of light,to knock electrons free from atoms generating a flow of elecricity.
+                    <hr>
+                </div>
+        
+
+                <h3 class="question">The final Piece ?</h3>
+                <div class="answer">
+                    The final Piece to complete your solar system is the Charge Controller or Voltage Regulator. Its basically the same thing just a different name. This essential piece of your solar system controls the Charge put into your battery, stops overcharging and prevents the solar panel pulling power from the battery at night.  .
+      
+                    <hr>
+                </div>      
+   
+    </div>
+
+<script src="jquery.js" ></script>  
+ <script>
+
+     $(document).ready(function() {
+         $(".faq h3").on("click", function() {
+             $(this).next().slideToggle(".answer");
+         });
+     });
+
+ </script>
+</body>
+</html>
